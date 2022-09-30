@@ -9,9 +9,10 @@ func Hi(name string) string {
 }
 
 func EuclidianDiv(dividend, divisor int) (quotient, remainder int) {
-	for dividend >= (quotient+1)*divisor {
+	remainder = dividend
+	for remainder >= divisor {
+		remainder -= divisor
 		quotient++
 	}
-	remainder = dividend - quotient*divisor
 	return quotient, remainder
 }
