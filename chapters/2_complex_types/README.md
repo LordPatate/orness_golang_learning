@@ -21,3 +21,9 @@
 - Test that a key is present with a two-value assignment.
 - Delete from maps with the `delete` builtin.
 - The `range` keyword iterates over maps too.
+
+## Structs
+
+- Very similar to C structs.
+- When using a pointer to a struct, the fields can be accessed directly with the dot notation without explicit dereference.
+- Omitted values from the literal declaration are given their zero values.
