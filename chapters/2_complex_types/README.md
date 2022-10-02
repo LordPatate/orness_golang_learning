@@ -11,3 +11,13 @@
 - The `make` function allocates a zeroed array and returns a slice that refers to that array.
 - The `append` built-in function appends elements to the end of a slice. 
 - If the backing array of s is too small to fit all the given values a bigger array will be allocated. The returned slice will point to the newly allocated array.
+- The `range` form of the `for` loop iterates over a slice.
+
+## Maps
+
+- Like Python dict or Java HashMap.
+- Initialize maps with a literal expression or `make`.
+- Unlike slices, no values can be added from the `nil` map (the zero value).
+- Test that a key is present with a two-value assignment.
+- Delete from maps with the `delete` builtin.
+- The `range` keyword iterates over maps too.
