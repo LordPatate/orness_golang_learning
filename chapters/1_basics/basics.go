@@ -33,3 +33,13 @@ func Perimeter(radius float64) float64 {
 	// Pi will take the type float64 as needed by context
 	return 2 * Pi * radius
 }
+
+func Min3(a, b, c int) int {
+	if b > c {
+		b = c
+	}
+	if a > b {
+		a = b
+	}
+	return a
+}
