@@ -9,12 +9,13 @@ func Hi(name string) string {
 }
 
 func EuclidianDiv(dividend, divisor int) (quotient, remainder int) {
+	// quotient and remainder are named return values
 	remainder = dividend
 	for remainder >= divisor {
 		remainder -= divisor
 		quotient++
 	}
-	return quotient, remainder
+	return // Same as `return quotient, remainder`
 }
 
 func Swap(a, b *int) {

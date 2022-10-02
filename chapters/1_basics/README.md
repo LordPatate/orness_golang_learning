@@ -18,6 +18,7 @@ Example: func Hello and EuclidianDiv in [basics.go](basics.go)
 - Arguments are defined using names first, types after. This is the opposite of the convention from the C family but similar to Python type hints.
 - The return type is defined after the parameters (again, same as Python and opposite of C).
 - Functions can return multiple results. Note: unlike in python, it is not a tuple.
+- Functions can have named return values.
 
 ## Variables, constants & pointers
 Example: func Swap and Perimeter in [basics.go](basics.go)
