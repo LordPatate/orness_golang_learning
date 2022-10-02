@@ -1,4 +1,4 @@
-package fibo
+package exercise
 
 // FIXME
 func Fibo(n int) int
