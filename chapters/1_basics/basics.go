@@ -44,3 +44,11 @@ func Min3(a, b, c int) int {
 	}
 	return a
 }
+
+func Countdown(n int) {
+	for i := n; i > 0; i-- {
+		fmt.Println(i)
+	}
+	// 'i' is no longer in scope
+	fmt.Println("🚀 To inifinity, and beyond!")
+}

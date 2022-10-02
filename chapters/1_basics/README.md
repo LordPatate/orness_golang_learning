@@ -35,3 +35,10 @@ Example: func Swap and Perimeter in [basics.go](basics.go)
 - There is no pointer arithmetic.
 - The zero value of a pointer is `nil`.
 
+## Conditions & loops
+Example: func Min3, Countdown and EuclidianDiv in [basics.go](basics.go)
+
+- Brackets are mandatory, parenthesis are not.
+- The `for` keyword is used both for C-style "for" loops, "foreach" and "while" loops
+- Like `for`, the `if` statement can start with a short statement to execute before the condition.
+- Variables declared by short statements are restricted to the scope of the corresponding `if` or `for` block.
