@@ -12,8 +12,25 @@ Example: [hello.go](hello.go)
 You can also compile first using `go build hello.go` then run the generated executable (`hello.exe` on windows, `hello` on linux...).
 
 ## Functions
+Example: func Hello and EuclidianDiv in [basics.go](basics.go)
+
 - Functions are declared using the `func` keyword, followed by the function name.
 - Arguments are defined using names first, types after. This is the opposite of the convention from the C family but similar to Python type hints.
 - The return type is defined after the parameters (again, same as Python and opposite of C).
 - Functions can return multiple results. Note: unlike in python, it is not a tuple.
-## 
+
+## Variables, constants & pointers
+Example: func Swap and Perimeter in [basics.go](basics.go)
+
+- Declare variable and constants with the `var` and `const` keyword respectively.
+- The type comes after the name.
+- A value can be assigned on declaration with `=`.
+- If initialized, the type can be infered, so it can be omitted.
+- Since it it common to initialize variables, an alternative syntax exists without `var` keyword or type: `:=`.
+- Constants can only be basic types: character, string, boolean, or numeric values.
+- An untyped numeric constant takes the type needed by its context.
+- Variables and constants can be defined globally, though only with `var` or `const` syntax.
+- Pointers are declared with a star before the type.
+- There is no pointer arithmetic.
+- The zero value of a pointer is `nil`.
+
