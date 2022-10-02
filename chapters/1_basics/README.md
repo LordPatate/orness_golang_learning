@@ -42,3 +42,9 @@ Example: func Min3, Countdown and EuclidianDiv in [basics.go](basics.go)
 - The `for` keyword is used both for C-style "for" loops, "foreach" and "while" loops
 - Like `for`, the `if` statement can start with a short statement to execute before the condition.
 - Variables declared by short statements are restricted to the scope of the corresponding `if` or `for` block.
+
+## Exercise: fibo
+Code the function Fibo in [fibo.go](fibo.go) so that the test written in [fibo_test.go](fibo_test.go) passes when invoked using:
+```console
+$ go test fibo.go fibo_test.go
+```
