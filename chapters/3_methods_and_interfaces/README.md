@@ -52,7 +52,8 @@ func main() {
 - A type implements an interface by implementing its methods. There is no explicit declaration of intent, no "implements" keyword. 
 - The interface type that specifies zero methods is known as the empty interface: `interface{}`. An empty interface may hold values of any type.
 - The built-in type `any` is an alias for the empty interface.
-- A type assertion provides access to an interface value's underlying concrete value.
+- `comparable` is a built-in interface that makes it possible to use the `==` and `!=` operators on values of the type.
+- A type assertion `i.(T)` provides access to an interface value's underlying concrete value.
 ```go
 var i interface{} = "hello"
 
