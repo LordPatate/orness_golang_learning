@@ -28,3 +28,7 @@ func printSlice[T any](name string, s []T) {
 	fmt.Printf("%s: len=%d cap=%d %v\n", name, len(s), cap(s), s)
 }
 ```
+
+## Exercise
+
+Implement the [fold](https://en.wikipedia.org/wiki/Fold_(higher-order_function)) function.
