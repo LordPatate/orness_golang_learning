@@ -27,3 +27,9 @@
 - Very similar to C structs.
 - When using a pointer to a struct, the fields can be accessed directly with the dot notation without explicit dereference.
 - Omitted values from the literal declaration are given their zero values.
+
+## Exercise
+
+A fisherman wants to classify the fishes he caught by weight. He's got the list of fishes he caught and his fishypedia, his reference book containing all the information a fisherman should know about a given fish.
+For each fish he caught, he needs to find it in the fishypedia to find its weight. Then, he stores this fish in a basket with all the other fishes of the same weight.
+Should he not find in his fishypedia the "fish" he caught in his net, then it is not considered a fish and is thrown back into the sea.
