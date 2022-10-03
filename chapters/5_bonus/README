@@ -2,6 +2,13 @@
 
 ## Function values
 
+- Functions are values too.
+- Function values may be used as function arguments and return values.
+- The `func` syntax can be used to create lambda functions.
+- A closure is a function value that references variables from outside its body.
+- A closure may access and assign to the referenced variables.
+- Function values and closures can be used as goroutines.
+
 ## Type parameters & Generic types
 
 - The type parameters of a function appear between brackets, before the function's arguments.
