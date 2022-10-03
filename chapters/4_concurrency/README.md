@@ -22,4 +22,4 @@
 
 ## Exercise
 
-
+Implement a [merge sort](https://en.wikipedia.org/wiki/Merge_sort) using goroutines for each recursive call.
