@@ -1,0 +1,23 @@
+# Bonus
+
+## Function values
+
+## Type parameters & Generic types
+
+- The type parameters of a function appear between brackets, before the function's arguments.
+- Interfaces can be used as type constraints on type parameters.
+- Types can be parameterized with type parameters as well
+
+```go
+// List represents a singly-linked list that holds
+// values of any type.
+type List[T any] struct {
+	next *List[T]
+	val  T
+}
+
+// printSlice takes a slice of any type
+func printSlice[T any](name string, s []T) {
+	fmt.Printf("%s: len=%d cap=%d %v\n", name, len(s), cap(s), s)
+}
+```
