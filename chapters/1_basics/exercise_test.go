@@ -30,10 +30,11 @@ func TestMedian(t *testing.T) {
 	type input_struct struct {
 		a, b, c, expected int
 	}
-	inputs := [3]input_struct{
+	inputs := []input_struct{
 		{1, 2, 3, 2},
 		{9, 4, 16, 9},
 		{6, 30, 16, 16},
+		{6, 6, 6, 6},
 	}
 	for _, input := range inputs {
 		got := Median(input.a, input.b, input.c)
